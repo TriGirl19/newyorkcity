@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>NYC EASY Tours</title>
+
+  <!-- Bootstrap core CSS -->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Custom styles for this group project-->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <nav class="navbar-fixed-top"></nav>
+    <div class="navbar-header">
+      <a class="navbar-brand" id="header1" href="#">NYC EASY TOURS</a>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">Menu</button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="tours.html">TOURS</a></li>
+        <li><a href="info.html">INFO</a></li>
+      </ul>
+    </div>
+    <!-- navbar collapse -->
+  </nav>
+
+  <div class="container">
+
+    <!--this is the heading for the tours page-->
+    <div class="row tours-title">
+      <h1 class="headingtour">NYC EASY TOURS GUIDES</h1>
+      <h3 class="headingtour">How many days will you be in New York City?</h3>
+
+      <!--Dropdown box-->
+
+      <select class="selectDay">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+
+      <button id="submitDay">ENTER</button>
+
+      <!--!--this div will appear when the tour page is opened-->
+      <div class="tourMenu" id="tourMenu1">
+        <div class="startToursMenu">
+          <!-- top-buffer to add space btwn each rows -->
+          <div class="row top-buffer guide1">
+            <div class="col-md-12 col-sm-12">
+              <img class="img-responsive img-rounded center-block" src="images/nycskyline.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--This ends the opening display code block-->
+
+
+      <!--This starts the one day tour code block-->
+      <div class="hideTourDivs row" id="oneDayTour">
+        
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          
+        <div class="row top-buffer tours-title">
+          <h2>1 DAY TOUR</h2>
+          <br>
+          <div>
+            <h4>Staten Island Ferry</h4>
+            <img class="img-responsive img-rounded center-block" src="images/ferry2.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>The Statue of Liberty and Ellis Island</h4>
+            <img class="img-responsive img-rounded center-block" src="images/statue-of-liberty-6.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>9/11 Memorial/Museum and Freedom Tower</h4>
+            <img class="img-responsive img-rounded center-block" src="images/freedom-tower.jpg">
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--This ends the one day code block-->
+
+
+      <!--This starts the two day code block-->
+      <div class="hideTourDivs" id="twoDayTour">
+
+        <div class="row top-buffer tours-title" id="gallery1">
+          <h2>2 DAY TOUR - DAY ONE</h2>
+          <br>
+          <div class="col-xs-4">
+            <h4>Staten Island Ferry</h4>
+            <img class="img-responsive img-rounded center-block" src="images/ferry2.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>The Statue of Liberty and Ellis Island</h4>
+            <img class="img-responsive img-rounded center-block" src="images/statue-of-liberty-6.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>9/11 Memorial/Museum and Freedom Tower</h4>
+            <img class="img-responsive img-rounded center-block" src="images/freedom-tower.jpg">
+          </div>
+        </div>
+
+
+
+
+        <div class="row top-buffer tours-title" id="gallery1">
+
+          <h2>2 DAY TOUR - DAY TWO</h2>
+            <br>
+          <div class="col-xs-4">
+            <h4>Empire Sate Building and Observation Deck</h4>
+            <img class="img-responsive img-rounded center-block" src="images/empire-state-building.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>Times Square</h4>
+            <img class="img-responsive img-rounded center-block" src="images/times-square.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>Metropolitan Museum of Art</h4>
+            <img class="img-responsive img-rounded center-block" src="images/the-met.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!--This ends the two day code block-->
+
+      <!--This starts the Three day code block-->
+      <div class="hideTourDivs" id="threeDayTour">
+
+        <div class="row top-buffer tours-title" id="gallery1">
+          <h2>3 DAY TOUR - DAY ONE</h2>
+          <br>
+          <div class="col-xs-4">
+            <h4>Staten Island Ferry</h4>
+            <img class="img-responsive img-rounded center-block" src="images/ferry2.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>The Statue of Liberty and Ellis Island</h4>
+            <img class="img-responsive img-rounded center-block" src="images/statue-of-liberty-6.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>9/11 Memorial/Museum and Freedom Tower</h4>
+            <img class="img-responsive img-rounded center-block" src="images/freedom-tower.jpg">
+          </div>
+
+        </div>
+
+        <div class="row top-buffer tours-title" id="gallery1">
+          <h2>3 DAY TOUR - DAY TWO</h2>
+              <br>
+          <div class="col-xs-4">
+            <h4>Empire Sate Building and Observation Deck</h4>
+            <img class="img-responsive img-rounded center-block" src="images/empire-state-building.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>Times Square</h4>
+            <img class="img-responsive img-rounded center-block" src="images/times-square.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>Metropolitan Museum of Art</h4>
+            <img class="img-responsive img-rounded center-block" src="images/the-met.jpg">
+          </div>
+
+        </div>
+
+        <div class="row top-buffer tours-title" id=gallery1>
+          <h2>3 DAY TOUR - DAY THREE</h2>
+              <br>
+          <div class="col-xs-4">
+            <h4>Rockefeller Center/Radio City Music Hall</h4>
+            <img class="img-responsive img-rounded center-block" src="images/rockefeller-center2.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>Central Park</h4>
+            <img class="img-responsive img-rounded center-block" src="images/central-park14.jpg">
+          </div>
+
+          <div class="col-xs-4">
+            <h4>American Museum of Natural History</h4>
+            <img class="img-responsive img-rounded center-block" src="images/museum10.jpg">
+          </div>
+        </div>
+
+      </div>
+      <!--this ends the three day code block-->
+
+
+
+      <br>
+
+      <footer>
+        <p>&copy; NYC EASY TOURS 2016</p>
+      </footer>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!--This is the custom javascript file for the Tours page-->
+  <script type="text/javascript" src="js/tours.js"></script>
+
+</body>
+
+</html>

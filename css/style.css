@@ -1,0 +1,116 @@
+/*Style for the Home Page*/
+#jumbo1
+{
+    background-image: url("../images/NYC.jpg");
+        background-size: cover;
+        background-color: #7EC0EE;
+        color: white;
+        padding: 10px 10px 10px 10px;
+        
+}
+
+body
+{
+    background-color: #8ccccc;
+    background-size: cover;
+}
+
+#home-container {
+    width: 93%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-miniBox-title{
+    text-align: center;
+}
+
+.home-miniBox-text {
+    text-align: justify;
+}
+
+
+/*End Home Page Style*/
+
+/*Style for the Tours Page*/
+
+.tours-title
+{
+   text-align: center;
+}
+   
+
+/*#tourMenu1
+{
+     display: block;   
+}   */
+
+.hideTourDivs
+{
+    display:none;
+}
+
+
+
+.headingtour{
+    color:#d65200;
+}
+
+.top-buffer{
+    margin-top: 50px;
+}
+
+
+/*End Tours Page Style*/
+
+
+
+
+
+
+
+
+/*Common Styles -- meaning used on more than just one page*/
+#header1
+{
+    background-color:  #00688b;
+    background-size: cover;
+    color: white;
+}
+
+//#gallery1
+//{
+    //background-color: #8ccccc;
+    //background-size: cover;
+//}
+
+#button1
+{
+    background-color: #6c7b8b;
+    color: white;
+}
+/*End Common Styles*/
+
+
+
+/*style for Info page*/
+
+
+
+.temp{
+    color:white;
+    
+}
+
+
+
+#view{
+    background-image: url("../images/nycview8.jpg");
+    background-size: cover;
+    color:white;}
+      
+
+
+/*End of form page Styles */
+
+
